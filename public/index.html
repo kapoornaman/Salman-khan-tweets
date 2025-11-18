@@ -21,31 +21,31 @@
     <section id="intro">
       <h2>Overview</h2>
       <p>
-        A simple REST API that returns classic Salman Khan tweets.  
-        Perfect for fun apps, generators, demos, and experiments.
+        A simple public REST API delivering classic Salman Khan tweets.  
+        Perfect for memes, fun projects, mini-apps, or anything creative.
       </p>
     </section>
 
     <section id="endpoints">
       <h2>Endpoints</h2>
 
-      <!-- ▶ RANDOM QUOTE -->
+      <!-- RANDOM -->
       <div class="endpoint-box">
-        <h3>GET /random</h3>
+        <h3>GET https://salman-khan-tweets.onrender.com/random</h3>
         <p>Returns a random Salman Khan tweet.</p>
 
         <button class="copy-btn" onclick="copyFromBox('randomTweetBox')">Copy</button>
         <button class="random-btn" onclick="randomize()">Randomize</button>
 
         <pre id="randomTweetBox" class="code">
-Click randomize to get a tweet...
+Click "Randomize" to fetch a Bhai tweet…
         </pre>
       </div>
 
-      <!-- ▶ ALL QUOTES -->
+      <!-- ALL -->
       <div class="endpoint-box">
-        <h3>GET /api/quotes</h3>
-        <p>Returns all tweets in one array.</p>
+        <h3>GET https://salman-khan-tweets.onrender.com/api/quotes</h3>
+        <p>Returns all tweets as an array.</p>
         
         <button class="copy-btn" onclick="copyFromBox('allTweetsBox')">Copy</button>
 
@@ -59,30 +59,53 @@ Click randomize to get a tweet...
 
     </section>
 
-    <section id="usage">
-      <h2>How to Use</h2>
-      <pre class="code">
-fetch("https://yourdomain.com/random")
-  .then(res => res.json())
-  .then(data => console.log(data));
-      </pre>
+    <!-- DOCUMENTATION -->
+    <section id="documentation">
+      <h2>Documentation</h2>
+      <p>This API provides two main endpoints:</p>
+
+      <ul>
+        <li><strong>/random</strong> → Returns one random tweet.</li>
+        <li><strong>/api/quotes</strong> → Returns all tweets.</li>
+      </ul>
+
+      <p>
+        All responses are in JSON format and can be used directly in websites,
+        mobile apps, Discord bots, or any JavaScript/Node project.
+      </p>
+    </section>
+
+    <!-- CONTRIBUTE -->
+    <section id="contribute">
+      <h2>How to Contribute</h2>
+      <p>Want to add more tweets or improve the API?</p>
+
+      <ul>
+        <li>Visit the GitHub repo:</li>
+        <pre class="code">https://github.com/kapoornaman/Salman-khan-tweets</pre>
+
+        <li>Submit issues, feature requests, or pull requests.</li>
+        <li>You can also DM the creator to add more iconic Bhai tweets.</li>
+      </ul>
     </section>
 
   </div>
 
   <script>
+    // Copy JSON from box
     function copyFromBox(boxId) {
       const text = document.getElementById(boxId).textContent.trim();
       navigator.clipboard.writeText(text);
       alert("Copied!");
     }
 
+    // Fetch random tweet
     async function randomize() {
       const box = document.getElementById("randomTweetBox");
       box.textContent = "Loading... 🔄";
 
       try {
-        const res = await fetch("/random");
+        const res = await fetch("https://salman-khan-tweets.onrender.com/random");
         const data = await res.json();
         box.textContent = JSON.stringify(data, null, 2);
       } catch (err) {
