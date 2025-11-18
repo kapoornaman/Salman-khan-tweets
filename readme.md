@@ -18,7 +18,7 @@ https://salman-khan-tweets.onrender.com/
 
 Get a random Salman Khan tweet:
 
-https://salman-khan-tweets.onrender.com/random
+>https://salman-khan-tweets.onrender.com/random
 
 [
 {
@@ -31,7 +31,7 @@ https://salman-khan-tweets.onrender.com/random
 ### `GET /api/quotes`
 
 Get all tweets in an array:
-https://salman-khan-tweets.onrender.com/api/quotes
+>https://salman-khan-tweets.onrender.com/api/quotes
 
 Example response:
 [
