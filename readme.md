@@ -20,32 +20,32 @@ Get a random Salman Khan tweet:
 
 >https://salman-khan-tweets.onrender.com/random
 
-[
-{
-  "id": 4,
-  "tweet": "Sub theek ?",
-  "date": "May 28"
-}
-]
+  [
+  {
+    "id": 4,
+    "tweet": "Sub theek ?",
+    "date": "May 28"
+  }
+  ]
 
 ### `GET /api/quotes`
 
 Get all tweets in an array:
 >https://salman-khan-tweets.onrender.com/api/quotes
-
-Example response:
-[
-  {
-    "id": 1,
-    "tweet": "Best of luck to zinta",
-    "date": "2010-12-06"
-  },
-  {
-    "id": 2,
-    "tweet": "So jao ab",
-    "date": "2010-11-02"
-  }
-]
+  
+  Example response:
+  [
+    {
+      "id": 1,
+      "tweet": "Best of luck to zinta",
+      "date": "2010-12-06"
+    },
+    {
+      "id": 2,
+      "tweet": "So jao ab",
+      "date": "2010-11-02"
+    }
+  ]
 
 
 
