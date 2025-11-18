@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Read quotes JSON
-const quotes = JSON.parse(fs.readFileSync("./data/quotes2.json", "utf-8"));
+const quotes = JSON.parse(fs.readFileSync("./data/quotes.json", "utf-8"));
 
 // Serve the public folder (your HTML frontend)
 app.use(express.static("public"));
