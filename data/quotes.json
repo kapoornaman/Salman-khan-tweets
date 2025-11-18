@@ -1,111 +1,154 @@
 [
-  { "id": 1, "quote": "I've failed over and over again in my life. And that is why I succeed.", "author": "Michael Jordan", "category": "athlete" },
-  { "id": 2, "quote": "Success isn’t owned. It’s leased. And rent is due every day.", "author": "J.J. Watt", "category": "athlete" },
-  { "id": 3, "quote": "Hard work beats talent when talent doesn’t work hard.", "author": "Tim Notke", "category": "athlete" },
-  { "id": 4, "quote": "Champions keep playing until they get it right.", "author": "Billie Jean King", "category": "athlete" },
-  { "id": 5, "quote": "The only way to prove you are a good sport is to lose.", "author": "Ernie Banks", "category": "athlete" },
-  { "id": 6, "quote": "You have to believe in yourself when no one else does.", "author": "Serena Williams", "category": "athlete" },
-  { "id": 7, "quote": "Pain is temporary. Quitting lasts forever.", "author": "Lance Armstrong", "category": "athlete" },
-  { "id": 8, "quote": "The more difficult the victory, the greater the happiness in winning.", "author": "Pelé", "category": "athlete" },
-  { "id": 9, "quote": "Never let the fear of striking out keep you from playing the game.", "author": "Babe Ruth", "category": "athlete" },
-  { "id": 10, "quote": "Run when you can, walk if you have to, crawl if you must; just never give up.", "author": "Dean Karnazes", "category": "athlete" },
-
-  { "id": 11, "quote": "You miss 100% of the shots you don’t take.", "author": "Wayne Gretzky", "category": "athlete" },
-  { "id": 12, "quote": "Don’t count the days; make the days count.", "author": "Muhammad Ali", "category": "athlete" },
-  { "id": 13, "quote": "Champions aren't made in gyms. Champions are made from something deep inside.", "author": "Muhammad Ali", "category": "athlete" },
-  { "id": 14, "quote": "If something stands between you and your success, move it. Never be denied.", "author": "Dwayne Johnson", "category": "athlete" },
-  { "id": 15, "quote": "I never worry about the problem. I worry about the solution.", "author": "Shaquille O’Neal", "category": "athlete" },
-  { "id": 16, "quote": "You can’t put a limit on anything. The more you dream, the farther you get.", "author": "Michael Phelps", "category": "athlete" },
-  { "id": 17, "quote": "If you think you're done, you're only 40% done. The human mind limits you.", "author": "David Goggins", "category": "athlete" },
-  { "id": 18, "quote": "I’ve always believed that if you put in the work, the results will come.", "author": "Michael Jordan", "category": "athlete" },
-  { "id": 19, "quote": "I hated every minute of training, but I said, ‘Don’t quit. Suffer now and live the rest of your life as a champion.’", "author": "Muhammad Ali", "category": "athlete" },
-  { "id": 20, "quote": "It’s not whether you get knocked down; it’s whether you get up.", "author": "Vince Lombardi", "category": "athlete" },
-
-  { "id": 21, "quote": "Excellence is not a singular act but a habit. You are what you repeatedly do.", "author": "Shaquille O’Neal", "category": "athlete" },
-  { "id": 22, "quote": "A trophy carries dust. Memories last forever.", "author": "Mary Lou Retton", "category": "athlete" },
-  { "id": 23, "quote": "If you are afraid of failure, you don’t deserve to be successful.", "author": "Charles Barkley", "category": "athlete" },
-  { "id": 24, "quote": "The harder the battle, the sweeter the victory.", "author": "Les Brown", "category": "athlete" },
-  { "id": 25, "quote": "You win some, you lose some, but you live to fight another day.", "author": "Ice Cube", "category": "celebrity" },
-  { "id": 26, "quote": "The world’s most successful people have the same 24 hours you do. Use them wisely.", "author": "Kobe Bryant", "category": "athlete" },
-  { "id": 27, "quote": "Greatness is not guarding yourself from the people. It's being accepted by the people.", "author": "LeBron James", "category": "athlete" },
-  { "id": 28, "quote": "Everything negative—pressure, challenges—is an opportunity for me to rise.", "author": "Kobe Bryant", "category": "athlete" },
-  { "id": 29, "quote": "I'm not the next Usain Bolt. I'm the first me.", "author": "Andre De Grasse", "category": "athlete" },
-  { "id": 30, "quote": "You have to expect things of yourself before you can do them.", "author": "Michael Jordan", "category": "athlete" },
-
-  { "id": 31, "quote": "The only limit to our realization of tomorrow will be our doubts of today.", "author": "Franklin D. Roosevelt", "category": "celebrity" },
-  { "id": 32, "quote": "I've failed many times, but that is why I succeed.", "author": "Larry Bird", "category": "athlete" },
-  { "id": 33, "quote": "Pressure is something you feel when you don’t know what you’re doing.", "author": "Chuck Noll", "category": "athlete" },
-  { "id": 34, "quote": "The pain you feel today will be the strength you feel tomorrow.", "author": "Arnold Schwarzenegger", "category": "athlete" },
-  { "id": 35, "quote": "Do something today that your future self will thank you for.", "author": "Sean Patrick Flanery", "category": "celebrity" },
-  { "id": 36, "quote": "Obsessed is just a word the lazy use to describe the dedicated.", "author": "Russell Warren", "category": "athlete" },
-  { "id": 37, "quote": "When you have a dream, you’ve got to grab it and never let go.", "author": "Carol Burnett", "category": "celebrity" },
-  { "id": 38, "quote": "You cannot achieve greatness without hard work.", "author": "Lionel Messi", "category": "athlete" },
-  { "id": 39, "quote": "I don’t count my sit-ups. I only start counting when it starts hurting.", "author": "Muhammad Ali", "category": "athlete" },
-  { "id": 40, "quote": "Believe you can, and you're halfway there.", "author": "Theodore Roosevelt", "category": "celebrity" },
-
-  { "id": 41, "quote": "Winning isn’t everything, but wanting to win is.", "author": "Vince Lombardi", "category": "athlete" },
-  { "id": 42, "quote": "The more you sweat in practice, the less you bleed in battle.", "author": "Richard Marcinko", "category": "athlete" },
-  { "id": 43, "quote": "Discipline is choosing what you want most over what you want now.", "author": "Abraham Lincoln", "category": "celebrity" },
-  { "id": 44, "quote": "If you can't outplay them, outwork them.", "author": "Ben Hogan", "category": "athlete" },
-  { "id": 45, "quote": "Not all storms come to disrupt your life. Some come to clear your path.", "author": "Paulo Coelho", "category": "celebrity" },
-  { "id": 46, "quote": "Make each day your masterpiece.", "author": "John Wooden", "category": "athlete" },
-  { "id": 47, "quote": "A champion is someone who gets up when they can’t.", "author": "Jack Dempsey", "category": "athlete" },
-  { "id": 48, "quote": "What hurts today makes you stronger tomorrow.", "author": "Jay Cutler", "category": "athlete" },
-  { "id": 49, "quote": "Courage is not the absence of fear, but the triumph over it.", "author": "Nelson Mandela", "category": "celebrity" },
-  { "id": 50, "quote": "Champions believe in themselves even when no one else does.", "author": "Unknown", "category": "athlete" },
-
-  { "id": 51, "quote": "Winning takes precedence. If you’re not willing to give everything, don’t even show up.", "author": "Michael Jordan", "category": "athlete" },
-  { "id": 52, "quote": "The last three or four reps is what makes the muscle grow.", "author": "Arnold Schwarzenegger", "category": "athlete" },
-  { "id": 53, "quote": "You can’t win unless you learn how to lose.", "author": "Kareem Abdul-Jabbar", "category": "athlete" },
-  { "id": 54, "quote": "Rise and grind. It’s not a slogan — it's a lifestyle.", "author": "Kobe Bryant", "category": "athlete" },
-  { "id": 55, "quote": "Stay hungry. Stay foolish.", "author": "Steve Jobs", "category": "celebrity" },
-  { "id": 56, "quote": "The difference between the impossible and the possible lies in determination.", "author": "Usain Bolt", "category": "athlete" },
-  { "id": 57, "quote": "When you’re good at something, you’ll tell everyone. When you’re great, they’ll tell you.", "author": "Walter Payton", "category": "athlete" },
-  { "id": 58, "quote": "It’s harder to stay on top than it is to make the climb.", "author": "Pat Summitt", "category": "athlete" },
-  { "id": 59, "quote": "A calm mind brings inner strength and self-confidence.", "author": "Dalai Lama", "category": "celebrity" },
-  { "id": 60, "quote": "You can’t get much done in life if you only work on the days you feel good.", "author": "Jerry West", "category": "athlete" },
-
-  { "id": 61, "quote": "If you fail to prepare, you're prepared to fail.", "author": "Mark Spitz", "category": "athlete" },
-  { "id": 62, "quote": "Champions train. Losers complain.", "author": "Unknown", "category": "athlete" },
-  { "id": 63, "quote": "Success is not final; failure is not fatal: It is the courage to continue that counts.", "author": "Winston Churchill", "category": "celebrity" },
-  { "id": 64, "quote": "Do one thing every day that scares you.", "author": "Eleanor Roosevelt", "category": "celebrity" },
-  { "id": 65, "quote": "Never say never, because limits like fears are often just an illusion.", "author": "Michael Jordan", "category": "athlete" },
-  { "id": 66, "quote": "Some people want it to happen. Some wish it would happen. Others make it happen.", "author": "Michael Jordan", "category": "athlete" },
-  { "id": 67, "quote": "The best way to predict your future is to create it.", "author": "Peter Drucker", "category": "celebrity" },
-  { "id": 68, "quote": "Don’t practice until you get it right. Practice until you can’t get it wrong.", "author": "Unknown", "category": "athlete" },
-  { "id": 69, "quote": "You don’t need to be perfect; just be better than yesterday.", "author": "Conor McGregor", "category": "athlete" },
-  { "id": 70, "quote": "Every champion was once a contender who refused to give up.", "author": "Rocky Balboa", "category": "celebrity" },
-
-  { "id": 71, "quote": "You must expect great things of yourself before you can do them.", "author": "Michael Jordan", "category": "athlete" },
-  { "id": 72, "quote": "If it doesn’t challenge you, it won’t change you.", "author": "Fred DeVito", "category": "celebrity" },
-  { "id": 73, "quote": "There may be people with more talent, but there’s no excuse for anyone to work harder than you do.", "author": "Derek Jeter", "category": "athlete" },
-  { "id": 74, "quote": "I've learned that something constructive comes from every defeat.", "author": "Tom Landry", "category": "athlete" },
-  { "id": 75, "quote": "If you want to be the best, you have to do things that other people aren’t willing to do.", "author": "Michael Phelps", "category": "athlete" },
-  { "id": 76, "quote": "Your life is your story. Write well. Edit often.", "author": "Susan Statham", "category": "celebrity" },
-  { "id": 77, "quote": "A hero is someone who has given his life to something bigger than himself.", "author": "Joseph Campbell", "category": "celebrity" },
-  { "id": 78, "quote": "Do not let what you cannot do interfere with what you can do.", "author": "John Wooden", "category": "athlete" },
-  { "id": 79, "quote": "It’s not the will to win that matters. It’s the will to prepare.", "author": "Paul Bryant", "category": "athlete" },
-  { "id": 80, "quote": "Fear kills more dreams than failure ever will.", "author": "Suzy Kassem", "category": "celebrity" },
-
-  { "id": 81, "quote": "Mental toughness is doing what you don’t want to do, when you don’t want to do it.", "author": "Bobby Knight", "category": "athlete" },
-  { "id": 82, "quote": "Success is a journey, not a destination.", "author": "Arthur Ashe", "category": "athlete" },
-  { "id": 83, "quote": "You cannot swim for new horizons until you have courage to lose sight of the shore.", "author": "William Faulkner", "category": "celebrity" },
-  { "id": 84, "quote": "A goal is just a dream with a deadline.", "author": "Joe Montana", "category": "athlete" },
-  { "id": 85, "quote": "Courage is doing what you're afraid to do. There can be no courage unless you're scared.", "author": "Eddie Rickenbacker", "category": "celebrity" },
-  { "id": 86, "quote": "Don’t let winning make you soft. Don’t let losing make you quit.", "author": "Unknown", "category": "athlete" },
-  { "id": 87, "quote": "Effort is fully replenishable. You can always give more.", "author": "J.J. Watt", "category": "athlete" },
-  { "id": 88, "quote": "The harder you work, the harder it is to surrender.", "author": "Vince Lombardi", "category": "athlete" },
-  { "id": 89, "quote": "Work hard in silence. Let your success make the noise.", "author": "Frank Ocean", "category": "celebrity" },
-  { "id": 90, "quote": "The moment you give up is the moment you let someone else win.", "author": "Kobe Bryant", "category": "athlete" },
-
-  { "id": 91, "quote": "Practice like you've never won. Perform like you've never lost.", "author": "Bernard F. Asuncion", "category": "celebrity" },
-  { "id": 92, "quote": "Most people give up right before the big break comes. Don’t be most people.", "author": "Unknown", "category": "athlete" },
-  { "id": 93, "quote": "You must be the change you wish to see in the world.", "author": "Mahatma Gandhi", "category": "celebrity" },
-  { "id": 94, "quote": "The fight is won or lost far away from witnesses.", "author": "Muhammad Ali", "category": "athlete" },
-  { "id": 95, "quote": "Great things never came from comfort zones.", "author": "Neil Strauss", "category": "celebrity" },
-  { "id": 96, "quote": "Dedication makes dreams come true.", "author": "Kobe Bryant", "category": "athlete" },
-  { "id": 97, "quote": "A setback is a setup for a comeback.", "author": "T.D. Jakes", "category": "celebrity" },
-  { "id": 98, "quote": "If they don’t understand your passion, they’re not meant to.", "author": "Kevin Durant", "category": "athlete" },
-  { "id": 99, "quote": "Legendary is not about the wins. It's about the consistency.", "author": "Cristiano Ronaldo", "category": "athlete" },
-  { "id": 100, "quote": "Be stronger than your excuses.", "author": "Unknown", "category": "athlete" }
+  {
+    "id": 1,
+    "tweet": "Best of luck to zinta",
+    "date": "2010-12-06"
+  },
+  {
+    "id": 2,
+    "tweet": "Hehehe zinta u r mind blowing hehehe",
+    "date": "2010-11-06"
+  },
+  {
+    "id": 3,
+    "tweet": "Mughe ladki mil gayi",
+    "date": "2018-02-05"
+  },
+  {
+    "id": 4,
+    "tweet": "Twitter police cnt get the fake salman khan kyuki gyara mulko ki twitter police mujhe dhoond rahi hai.",
+    "date": "2010-05-06"
+  },
+  {
+    "id": 5,
+    "tweet": "Arre u don't need a reason yaar, bus jst like that, felt like it nw nw to the whole family any prob? R d has crossed 1 lack, arbaaz told me ha",
+    "date": "2010-05-06"
+  },
+  {
+    "id": 6,
+    "tweet": "U nt sleeping yet?",
+    "date": "2010-04-24"
+  }
+  ,
+  {
+    "id": 7,
+    "tweet": "Agar reply karna ho toh sirif weekend pe karo. Jab koi kaam nahi ho, jab kuch nahi karne ko ho, aur kuch nahi karne ko kyun ho? B busy guys",
+    "date": "2015-06-10"
+  },
+  {
+    "id": 8,
+    "tweet": "Too many single meaning jokes on GWR vit zinta. Had a blast, she is an amazing host, if any 1 thinks they r double meaning dirty mind",
+    "date": "2011-03-27"
+  },
+  {
+    "id": 9,
+    "tweet": "Thinking mein bhi takla ho ja ooooooon",
+    "date": "2011-07-27"
+  },
+  {
+    "id": 10,
+    "tweet": "Hindustan k peoples mai hai bada dum VANDE MATARAM.",
+    "date": "2015-01-26"
+  },
+  {
+    "id": 11,
+    "tweet": "Thinking of tweeting today .",
+    "date": "2024-05-28"
+  },
+  {
+    "id": 12,
+    "tweet": "Toh kar he deta hoon tweet",
+    "date": "2024-05-28"
+  },
+  {
+    "id": 13,
+    "tweet": "Sub theek ?",
+    "date": "2024-05-28"
+  },
+  {
+  "id": 14,
+  "tweet": "Pyar meh dill peh maaaaar deh goliiii lelehhhhhh meriii jaaaaaan",
+  "date": "2014-08-09"
+    },    
+  {
+    "id": 15,
+    "tweet": "Hahahahahahahaha hehehehehehehe sorry",
+    "date": "27/09/2010 15:50"
+  },
+  {
+    "id": 16,
+    "tweet": "Challo tweets khatam. So jao ya apna kaam karo. B happy",
+    "date": "10 Jun 15 1:31 AM"
+  },
+  {
+    "id": 17,
+    "tweet": "Thought for today , aaj bhi kuch mat socho .",
+    "date": "Jun 30 2014"
+  },
+  {
+    "id": 18,
+    "tweet": "guys last twt for tonite - global warmin u wnt undrstnd so all I'm sayin is save this planet coz ull only get girls here! Chalo abhi gnit.",
+    "date": ""
+  },
+  {
+    "id": 19,
+    "tweet": "Let it go na",
+    "date": "18 Oct 2010 6:59 pm"
+  },
+  {
+    "id": 20,
+    "tweet": "Thought for the day . Hmmmmmmmmm ahhhhhhhhhh , jaane do aaj kuch mat soocho .",
+    "date": "29 Jun 2014 8:17 AM"
+  },
+  {
+    "id": 21,
+    "tweet": "Bhishum bhishum dhishum dhishum dhard ahaaaaaaaaaaaaaa dishkayon .",
+    "date": "May 20, 2010 12:41 PM"
+  },
+  {
+    "id": 22,
+    "tweet": "Tweetak tweetak tweetiya I lv u .",
+    "date": "23 Apr 2010 5:32 AM"
+  },
+  {
+    "id": 23,
+    "tweet": "Mein toh aisa he hoon",
+    "date": "18/10/2010 17:40"
+  },
+  {
+    "id": 24,
+    "tweet": "Pedho (trees) se itna pyar karo jitna ke pedho ke niche karte ho.",
+    "date": "01 Dec 10"
+  }
+  ,
+  {
+    "id": 25,
+    "tweet": "Gd morning,afternoon ,evening n good nite",
+    "date": "Sep 25, 2010 11:56 PM"
+  },
+  {
+    "id": 26,
+    "tweet": "Soch raha hoon wat to tweet",
+    "date": "19 Oct 2012 10:07 AM"
+  },
+  {
+    "id": 27,
+    "tweet": "Mila kya...... ?",
+    "date": "13 Dec 14 1:11 PM"
+  },
+  {
+    "id": 28,
+    "tweet": "Tweetak tweetak tweetiya I lv u .",
+    "date": "23 Apr 10 6:02 PM"
+  },
+  {
+    "id": 29,
+    "tweet": "How many of u r on false identities n y?",
+    "date": "8 Jan 2015 12:15 AM"
+  },
+  {
+    "id": 30,
+    "tweet": "May matter, may not matter but look into the matter. Arre matter se yaad aya - matter is anything that has a mass.",
+    "date": "29 Nov 2010 1:33 AM"
+  }
 ]
