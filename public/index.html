@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
   <div class="hero">
     <h1>Salman Khan Tweets API</h1>
     <p>Your gateway to legendary Bhai tweets 🚀</p>
@@ -112,6 +111,24 @@ Click "Randomize" to fetch a Bhai tweet…
       }
     }
   </script>
+  <script>
+  const gifs = [
+    "gifs/salman-khan-kick.gif",
+    "gifs/salman-bodyguard-movie.gif",
+    "gifs/bhibatsam-salman-khan.gif",
+    "gifs/funny-salmon.gif",
+    "gifs/salman-khan-radhe.gif",
+    "gifs/selmon-bhoi-selmon-bhoi-memes.gif",
+    "gifs/salman-khan-90s-salman-khan-handsome.gif",
+    "gifs/oh-yes-handsome.gif"
+  ];
+
+  const randomGif = gifs[Math.floor(Math.random() * gifs.length)];
+
+  document.body.style.backgroundImage = `url('${randomGif}')`;
+</script>
+
+
 
 </body>
 </html>
